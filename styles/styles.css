@@ -1,0 +1,171 @@
+/* header */
+header {
+    background-color: #E7642E;
+}
+
+/* menu */
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 22px;
+}
+
+/* footer */
+footer {
+    background-color: #E7642E;
+}
+
+footer p {
+    text-align: center;
+}
+
+/* HOME */
+
+/* Home Section */
+.home h1 {
+    font-family: 'Anta', sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: xx-large;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* About Section */
+.about {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+
+/* TOURNAMENT */
+
+/* Tournament Section */
+.tournament-h2 {
+    font-family: 'Anta', sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: x-large;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.tournament-table {
+    width: 50%;
+    border: 1px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.tournament-table th {
+    background-color: lightblue;
+}
+
+.tournament-table th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.tournament-table .col-num {
+    width: 8%;
+}
+
+.tournament-table .col-date {
+    width: 24%;
+}
+
+.tournament-table .col-txt-positions {
+    text-align: left;
+}
+
+.tournament-table .col-txt-fixture {
+    width: 30%;
+}
+
+.tournament-nav ul {
+    list-style: none;
+}
+
+.tournament-nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+/* STATS */
+
+/* Team Info Section */
+.team-info h1 {
+    font-family: 'Anta', sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: x-large;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.stats-h2 {
+    font-family: 'Anta', sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: x-large;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.stats-table {
+    width: 100%;
+    border: 1px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.stats-table th {
+    background-color: lightgreen;
+}
+
+.stats-table th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.stats-table .col-1 {
+    width: 10%;
+}
+
+/* GALLERY */
+
+/* CONTACT */
+
+/* Contact Section */
+.contact-welcome h2 {
+    font-family: 'Roboto';
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.contact-welcome p {
+    font-family: 'Roboto';
+    font-size: 1rem;
+}
+
+.contact-form .form-label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.contact-form .form-input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+.contact-form .btn-send {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
