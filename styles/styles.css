@@ -1,17 +1,34 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* header */
 header {
-    background-color: #E7642E;
+    background-color: #E7642E; 
+    padding: 5px;
 }
 
-/* menu */
-header nav ul{
-    list-style: none;
+header div nav div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-header nav ul li a{
-    text-decoration: none;
+header div nav div div ul{
+    display: flex;
+    gap: 20px;
+}
+
+.menu-item {
     color: whitesmoke;
     font-size: 22px;
+}
+
+.menu-item-active {
+    font-weight: bold;
 }
 
 /* footer */
