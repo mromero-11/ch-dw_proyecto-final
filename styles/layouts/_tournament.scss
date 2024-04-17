@@ -1,0 +1,53 @@
+/* TOURNAMENT */
+
+/* Tournament Section */
+.tournament-h2 {
+    font-family: 'Anta', sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: x-large;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.tournament-table {
+    width: 50%;
+    border: 1px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.tournament-table th {
+    background-color: lightblue;
+}
+
+.tournament-table th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.tournament-table .col-num {
+    width: 8%;
+}
+
+.tournament-table .col-date {
+    width: 24%;
+}
+
+.tournament-table .col-txt-positions {
+    text-align: left;
+}
+
+.tournament-table .col-txt-fixture {
+    width: 30%;
+}
+
+.tournament-nav ul {
+    list-style: none;
+}
+
+.tournament-nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}

@@ -1,0 +1,25 @@
+/* header */
+header {
+    background-color: #E7642E; 
+    padding: 5px;
+}
+
+header div nav div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div nav div div ul{
+    display: flex;
+    gap: 20px;
+}
+
+.menu-item {
+    color: whitesmoke;
+    font-size: 22px;
+}
+
+.menu-item-active {
+    font-weight: bold;
+}
