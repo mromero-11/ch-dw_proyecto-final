@@ -1,0 +1,240 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+header {
+    background-color: #E7642E; 
+    padding: 5px;
+}
+
+header div nav div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div nav div div ul{
+    display: flex;
+    gap: 20px;
+}
+
+.menu-item {
+    color: whitesmoke;
+    font-size: 22px;
+}
+
+.menu-item-active {
+    font-weight: bold;
+}
+
+/* footer */
+footer {
+    background-color: #E7642E;
+}
+
+footer p {
+    text-align: center;
+}
+
+/* HOME */
+
+/* Home Section */
+.home h1 {
+    font-family: 'Anta', sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: xx-large;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* About Section */
+.about {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+
+/* TOURNAMENT */
+
+/* Tournament Section */
+.tournament-h2 {
+    font-family: 'Anta', sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: x-large;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.tournament-table {
+    width: 50%;
+    border: 1px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.tournament-table th {
+    background-color: lightblue;
+}
+
+.tournament-table th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.tournament-table .col-num {
+    width: 8%;
+}
+
+.tournament-table .col-date {
+    width: 24%;
+}
+
+.tournament-table .col-txt-positions {
+    text-align: left;
+}
+
+.tournament-table .col-txt-fixture {
+    width: 30%;
+}
+
+.tournament-nav ul {
+    list-style: none;
+}
+
+.tournament-nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+/* STATS */
+
+/* Team Info Section */
+.team-info h1 {
+    font-family: 'Anta', sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: x-large;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.stats-h2 {
+    font-family: 'Anta', sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: x-large;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.stats-table {
+    width: 100%;
+    border: 1px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.stats-table th {
+    background-color: lightgreen;
+}
+
+.stats-table th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.stats-table .col-1 {
+    width: 10%;
+}
+
+/* GALLERY */
+
+.img-3, .img-4, .img-5, .vid-2 {
+    display: none;
+}
+
+.media-container div img, .media-container div iframe{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.media-container{
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 30%);
+    gap: 2rem;
+    margin: 3rem 2rem;
+}
+
+/* mq tablet */
+@media screen and (min-width: 600px) {
+    .media-container{
+        height: 75vh;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 50%);
+    }
+
+    .vid-1{
+        grid-column: span 2;
+    }
+}
+
+/* mq computer */
+@media screen and (min-width:1024px) {
+    .media-container{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 30%);
+    }
+
+    .img-3, .img-4, .img-5, .vid-2 {
+        display: block;
+    }
+
+    .img-3, .img-4{
+        grid-row: span 2;
+    }
+
+    .vid-2{
+        grid-column: span 2;
+    }
+}
+
+/* CONTACT */
+
+/* Contact Section */
+.contact-welcome h2 {
+    font-family: 'Roboto';
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.contact-welcome p {
+    font-family: 'Roboto';
+    font-size: 1rem;
+}
+
+.contact-form .form-label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.contact-form .form-input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+.contact-form .btn-send {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
