@@ -2,7 +2,7 @@
 
 /* Home Section */
 .home h1 {
-    font-family: 'Anta', sans-serif;
+    font-family: $title-font;
     font-weight: bolder;
     font-style: normal;
     font-size: xx-large;
@@ -12,6 +12,6 @@
 
 /* About Section */
 .about {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $body-font;
     font-size: 1rem;
 }

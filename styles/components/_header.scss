@@ -1,25 +1,24 @@
 /* header */
 header {
-    background-color: #E7642E; 
+    background-color: $primary-color;
     padding: 5px;
-}
-
-header div nav div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-header div nav div div ul{
-    display: flex;
-    gap: 20px;
-}
-
-.menu-item {
-    color: whitesmoke;
-    font-size: 22px;
-}
-
-.menu-item-active {
-    font-weight: bold;
-}
+  
+    div nav div {
+      @include flex-center;
+  
+      ul {
+        display: flex;
+        gap: 20px;
+  
+        li {
+          .menu-item {
+            color: whitesmoke;
+            font-size: 22px;
+            &-active {
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+  }
