@@ -21,61 +21,57 @@
 
 </head>
 <body>
-    
-    <header class="container-fluid">
 
-        <div class="row">
+    <header class="sticky-top">
+        
+        <nav class="navbar navbar-expand-md col-10">
 
-            <!-- Logo -->
-            <a class="col-2" href="#">
-                <img src="./images/logo.png" alt="logo" width="64px" height="64px">
-            </a>
+            <div class="container-fluid">
 
-            <!-- Menu -->
-            <nav class="navbar navbar-expand-lg col-10">
+                <!-- Logo -->
+                <a class="navbar-brand" href="./index.html">
+                    <img class="brand-logo" src="./images/brand_logo.png" alt="Logo del Campeonato Nacional de Basquet">
+                </a>
 
-                <div class="container-fluid">
-
-                    <!-- Collapse Button -->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <!-- Menu Items -->
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link menu-item menu-item-active" href="./index.html">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link menu-item" href="./pages/tournament.html">Torneo</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link menu-item" href="./pages/stats.html">Estadisticas</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link menu-item" href="./pages/gallery.html">Galeria</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link menu-item" href="./pages/contact.html">Contacto</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="https://www.youtube.com/" title="youtube">
-                                    <img src="./images/youtube_logo.png" alt="youtube link" width="48px" height="48px"/>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="https://www.instagram.com/" title="instagram">
-                                    <img src="./images/instagram_logo.png" alt="instagram link" width="48px" height="48px"/>
-                                </a>
-                            </li> 
-                        </ul>
-                    </div>
+                <!-- Collapse Button -->
+                <button class="navbar-toggler navbar-toggler-custom" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <!-- Menu Items -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link menu-item menu-item-active" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-item" href="./pages/tournament.html">Torneo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-item" href="./pages/stats.html">Estadisticas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-item" href="./pages/gallery.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-item" href="./pages/contact.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Social Media Links -->
+                <div class="navbar-socialmedia">
+                    <a href="https://www.youtube.com/" title="youtube" target="_blank">
+                        <img class="socialmedia-logo" src="./images/youtube_logo.png" alt="Youtube link">
+                    </a>
+                    <a href="https://www.instagram.com/" title="instagram" target="_blank">
+                        <img class="socialmedia-logo" src="./images/instagram_logo.png" alt="Instagram link">
+                    </a>
                 </div>
 
-            </nav>
+            </div>
 
-        </div>
+        </nav>
 
     </header>
     
@@ -89,13 +85,13 @@
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="./images/main_background_1.jpg" class="d-block w-100" alt="imagenes del torneo - 1">
+                    <img src="./images/main_background_1.jpg" class="d-block w-100" alt="imagen promocional del torneo - aro de basquet">
                   </div>
                   <div class="carousel-item">
-                    <img src="./images/main_background_2.jpg" class="d-block w-100" alt="imagenes del torneo - 2">
+                    <img src="./images/main_background_2.jpg" class="d-block w-100" alt="imagen promocional del torneo - cancha de basquet al atardecer">
                   </div>
                   <div class="carousel-item">
-                    <img src="./images/main_background_3.jpg" class="d-block w-100" alt="imagenes del torneo - 3">
+                    <img src="./images/main_background_3.jpg" class="d-block w-100" alt="imagen promocional del torneo - cancha de basquet de noche">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">

@@ -1,8 +1,9 @@
 /* footer */
 footer {
-    background-color: #E7642E;
+    background-color: $main-color-dark;
 
     p {
+        color: $main-color-ligth;
         text-align: center;
     }
 }

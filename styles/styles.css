@@ -7,31 +7,67 @@
 
 /* header */
 header {
-  background-color: #E7642E;
-  padding: 5px;
-}
-header div nav div {
+  background-color: #333333;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-header div nav div ul {
+header .container-fluid {
+  margin: 0;
+  padding: 0;
+}
+header .navbar {
+  margin: 0;
+  padding: 0;
+}
+header .navbar-brand {
+  width: 25%;
+}
+header .navbar-nav {
+  width: 100%;
   display: flex;
-  gap: 20px;
+  justify-content: space-evenly;
 }
-header div nav div ul li .menu-item {
-  color: whitesmoke;
-  font-size: 22px;
+header .navbar-nav .menu-item {
+  color: #F5F5F5;
+  font-size: 16px;
+  padding: 10px 20px;
 }
-header div nav div ul li .menu-item-active {
+header .navbar-nav .menu-item-active {
   font-weight: bold;
+}
+header .navbar-nav li a:hover {
+  color: #E7642E;
+}
+header .navbar-socialmedia {
+  width: 25%;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 20px;
+}
+header .navbar-toggler-custom {
+  background-color: #5A5A5A;
+  border-color: #E7642E;
+}
+header .brand-logo, header .socialmedia-logo {
+  width: 48px;
+  height: auto;
+}
+header .brand-logo {
+  margin-right: 20px;
+}
+
+/* body */
+body {
+  background-color: #F5F5F5;
 }
 
 /* footer */
 footer {
-  background-color: #E7642E;
+  background-color: #333333;
 }
 footer p {
+  color: #F5F5F5;
   text-align: center;
 }
 
@@ -44,12 +80,14 @@ footer p {
   font-size: xx-large;
   text-transform: uppercase;
   text-align: center;
+  margin: 10px;
 }
 
 /* About Section */
 .about {
   font-family: "Verdana", Geneva, Tahoma, sans-serif;
   font-size: 1rem;
+  margin: 10px;
 }
 
 /* TOURNAMENT */
