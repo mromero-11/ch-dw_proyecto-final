@@ -1,5 +1,23 @@
 /* GALLERY */
 
+.media-info {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 0px 0px;
+    
+    /* mq computer */
+    @media screen and (min-width: $desktop) {
+        justify-content: left;
+        margin: 20px 0px 0px 20px;
+    }
+
+    h2 {
+        font-family: $subtitle-font;
+        font-weight: bolder;
+        font-size: 1.5rem;
+    }
+}
+
 .img-3, .img-4, .img-5, .vid-2 {
     display: none;
 }

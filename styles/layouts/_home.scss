@@ -8,12 +8,22 @@
     font-size: xx-large;
     text-transform: uppercase;
     text-align: center;
-    margin: 10px;
+
+    div {
+        color: $primary-color;
+    }
+
+    /* mq computer */
+    @media screen and (min-width: $desktop) {
+        div {
+            display: inline;
+        }
+    }
 }
 
 /* About Section */
 .about {
     font-family: $body-font;
     font-size: 1rem;
-    margin: 10px;
+    margin: 10px 5px 0px 5px;
 }

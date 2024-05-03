@@ -4,6 +4,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10px;
 
   .container-fluid {
     margin: 0;
@@ -48,6 +49,11 @@ header {
     &-toggler-custom {
       background-color: $main-color-dark-ligth;
       border-color: $primary-color;
+
+      .navbar-toggler-icon {
+        background-image: url(
+          "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(231, 100, 46, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+      }
     }
   }
 
@@ -58,5 +64,9 @@ header {
 
   .brand-logo {
     margin-right: 20px;
+  }
+
+  .socialmedia-logo {
+    margin-left: 5px;
   }
 }

@@ -2,7 +2,8 @@
 
 /* Contact Section */
 .contact-welcome {
-  
+    margin: 5px;
+
     h2 {
         font-family: $subtitle-font;
         font-weight: bolder;
@@ -16,6 +17,7 @@
 }
   
 .contact-form {
+    margin: 5px;
 
     .form-label {
         font-family: $body-font;
@@ -49,7 +51,7 @@
         transition: background-color 0.3s ease;
 
         &:hover {
-        background-color: darken($primary-color, 15%);
+            background-color: darken($primary-color, 15%);
         }
     }
 }
