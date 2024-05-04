@@ -118,18 +118,27 @@ footer p {
   font-style: normal;
   font-size: x-large;
   text-transform: uppercase;
-  text-align: left;
+  text-align: center;
+  margin: 10px;
 }
 
 .tournament-table {
-  width: 50%;
   border: 1px solid black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Verdana", Geneva, Tahoma, sans-serif;
   font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  /* mq computer */
+}
+@media screen and (min-width: 1024px) {
+  .tournament-table {
+    width: 50%;
+  }
 }
 
 .tournament-table th {
-  background-color: lightblue;
+  background-color: #FFC175;
 }
 
 .tournament-table th, td {
@@ -153,14 +162,22 @@ footer p {
   width: 30%;
 }
 
-.tournament-nav ul {
-  list-style: none;
-}
-
 .tournament-nav ul li a {
   text-decoration: none;
   color: black;
-  font-size: 18px;
+  font-size: 14px;
+  font-family: "Verdana", Geneva, Tahoma, sans-serif;
+}
+.tournament-nav ul li a:hover {
+  background-color: #E7642E;
+  border-color: #E7642E;
+  color: white;
+}
+.tournament-nav .page-item.active .page-link {
+  background-color: #FFC175;
+  border-color: #E7642E;
+  color: black;
+  font-weight: bold;
 }
 
 /* STATS */
@@ -169,9 +186,15 @@ footer p {
   font-family: "Anta", sans-serif;
   font-weight: bolder;
   font-style: normal;
-  font-size: x-large;
+  font-size: xx-large;
   text-transform: uppercase;
   text-align: center;
+  color: #E7642E;
+}
+.team-info .team-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .stats-h2 {
@@ -181,17 +204,20 @@ footer p {
   font-size: x-large;
   text-transform: uppercase;
   text-align: left;
+  margin: 10px;
 }
 
 .stats-table {
-  width: 100%;
+  width: 90%;
   border: 1px solid black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Verdana", Geneva, Tahoma, sans-serif;
   font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .stats-table th {
-  background-color: lightgreen;
+  background-color: #FFC175;
 }
 
 .stats-table th, td {

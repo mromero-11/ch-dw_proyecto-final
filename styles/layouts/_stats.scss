@@ -1,33 +1,45 @@
 /* STATS */
 
 /* Team Info Section */
-.team-info h1 {
-    font-family: 'Anta', sans-serif;
-    font-weight: bolder;
-    font-style: normal;
-    font-size: x-large;
-    text-transform: uppercase;
-    text-align: center;
+.team-info {
+    h1 {
+        font-family: $title-font;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: xx-large;
+        text-transform: uppercase;
+        text-align: center;
+        color: $primary-color;
+    }
+
+    .team-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .stats-h2 {
-    font-family: 'Anta', sans-serif;
+    font-family: $title-font;
     font-weight: bolder;
     font-style: normal;
     font-size: x-large;
     text-transform: uppercase;
     text-align: left;
+    margin: 10px;
 }
 
 .stats-table {
-    width: 100%;
+    width: 90%;
     border: 1px solid black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $body-font;
     font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .stats-table th {
-    background-color: lightgreen;
+    background-color: $secondary-color;
 }
 
 .stats-table th, td {
